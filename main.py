@@ -1,8 +1,10 @@
 import arsa
 import daire
-Tekrar = "E"
-while Tekrar != "H" and Tekrar != "h": #dongu baslatma
-    Secenek = int(input("Lutfen Fiyatini Ogrenmek Istediginizi Seciniz[Arsa icin 1, Daire icin 2]:"))
+
+while True: #dongu baslatma
+    Secenek = int(input("Lutfen Fiyatini Ogrenmek Istediginizi Seciniz[Arsa icin 1, Daire icin 2, Cikis icin 0]:"))
+    if Secenek == 0:
+        break
     if Secenek not in [1,2]:
         print("Secenek 1 ve 2 Olmalidir. Tekrar Deneyiniz.")
         Tekrar = "e"
