@@ -78,11 +78,6 @@ while True: #dongu baslatma
         print("Daire Fiyati:", daire.hesapla_fiyat(Kat,Alan))
 
 
-    Tekrar = str(input("Tekrar Etmek Ister misiniz[Cikmak icin H/h, Devam Etmek icin Herhangi bir tusa basiniz]:"))
-    print("")
+    
 
 
-
-
-if Tekrar == "H" or Tekrar == "h":
-    exit()
